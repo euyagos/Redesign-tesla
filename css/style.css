@@ -1,0 +1,140 @@
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f7f7;
+  display: grid;
+}
+
+p, h1, h2, h3{
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.navbar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 159px;
+  background: #00000080;
+  height: 81px;
+  align-items: center;
+  justify-items: center;
+  position: fixed;
+  backdrop-filter: blur(15px);
+  z-index: 5;
+}
+.imgnav{
+  width: 148px;
+}
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+main{
+  display: grid;
+  background-image: linear-gradient(0deg, #000, #00000000) ;
+  position: relative;
+  padding-bottom: 91px;
+  height: 749px;
+}
+
+.video{
+  z-index: 0;
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  margin-top: -49px;
+  z-index: -1; 
+  }
+
+.conteudo {
+  display: grid;
+  margin-top: 469px;
+  padding-left: 56px;
+  padding-right: 56px;
+  grid-template-columns: 1f 1f;
+  justify-items: center;
+  align-items: end;
+}
+
+.tag{
+  background: #ffffff05;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  padding: 16px 12px;
+  display: grid;
+  align-content: center;
+  grid-column: 1;
+  width: 150px;
+  border: solid 1px #ffffff10;
+  border-radius: 6px;
+  font-size: 14px;
+
+}
+
+h1{
+font-size: 56px;
+font-weight: 700;
+color: #fff;
+width: 490px;
+grid-column: 1;
+}
+p{
+  color: #ffffff70;
+  width: 490px;
+  font-size: 20px;
+  font-weight: 300;
+  grid-column: 1;
+}
+
+.botoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2;
+  align-items: center;
+  gap: 16px;
+  width: 448px;
+  height: 52px;
+}
+
+.infos{
+  display: grid;
+  gap: 24px;
+}
+.button1{
+  display: grid;
+  font-size: 16px;
+  color: #fff;
+  background: #ffffff10;
+  border-radius: 8px;
+  border: transparent;
+  padding: 14px 18px;
+  align-items: center;
+  width: 192px;
+}
+
+.button2{
+  display: grid;
+  font-size: 16px;
+  color: #000;
+  background: #ffffff;
+  border-radius: 8px;
+  border: transparent;
+  padding: 18px 14px;
+  align-items: center;
+  width: 240px;
+}
